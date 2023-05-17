@@ -1,0 +1,200 @@
+.container  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: white;
+    align-content: center;  
+    margin: 0 auto;
+}
+.LG /*legenda*/{
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+ul{
+    list-style-type: none;
+}
+.til /*titulo*/{
+    text-align: center; color: rgb(14, 14, 32);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hover:hover {
+    background-color: rgb(233, 233, 233);
+    transition:.2s;
+    transform:scale(1.1);
+    cursor:pointer;
+    z-index:2;
+}
+.ex /*explicação*/{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;  
+    border: 2px black solid;
+    font-size: 10px;
+}
+.SIM /*Simbolo*/{
+ text-align: center;
+ text-justify: auto;
+ font-size: 18px;
+ font-weight: bold
+}
+.NOM /*Nome*/{
+ text-align: center;
+ text-decoration: none;
+ font-size: 12px;
+ color: black
+}
+.NA /*Número atômico*/{
+text-align: left;
+font-size: 12px;
+}
+
+.MA /*Metais alcalinos*/ {
+    background-color: red;
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+.MAT /*Metais Alcalino Terrosos*/ {
+    background-color: orange;
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
+}
+.MT /*Metais de Transição*/ {
+    background-color: yellow;
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px
+    
+}
+.MR /*Metais Representativos*/ {
+    background-color: rgb(43, 43, 211);
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.SM /*SemiMetais*/ {
+    background-color: rgb(62, 146, 118);
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.NM /*Não Metais*/ {
+    background-color: rgb(116, 38, 116);
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.HA /*Halogênios*/ {
+    background-color: rgb(83, 0, 83);
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.GN /*Gases Nobres*/ {
+    background-color: green;
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.LA /*Lantanídeos*/ {
+    background-color: rgb(14, 77, 77);
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.AC /*Actinídeos*/ {
+    background-color:rgb(255, 38, 201);
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.LGMA /* Legenda Metais alcalinos*/{
+    background-color: red; 
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGMAT /* Legenda Metais alcalinos Terrosos*/{
+    background-color: orange;
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGMT /* Legenda Metais de Transição*/{
+    background-color: yellow;
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGMR /* Legenda Metais Representativos*/{
+    background-color: rgb(43, 43, 211);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGSM /* Legenda SemiMetais*/{
+    background-color: rgb(62, 146, 118);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGNM /* Legenda Não Metais*/{
+    background-color: rgb(116, 38, 116);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGH /* Legenda Halogênios*/{
+    background-color: rgb(83, 0, 83);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGGN /* Legenda Gases Nobres*/{
+    background-color: green;
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGL /* Legenda Lantanídeos*/{
+    background-color: rgb(14, 77, 77);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGL /* Legenda Lantanídeos*/{
+    background-color: rgb(14, 77, 77);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
+.LGA /* Legenda Actinídeos*/{
+    background-color:rgb(255, 38, 201);
+    height: 25px; 
+    width: 25px; 
+    display: inline-block;
+}
