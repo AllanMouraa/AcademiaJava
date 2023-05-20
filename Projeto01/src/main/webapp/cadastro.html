@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cadastro</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<nav id="navbar-example2" class="navbar bg-light px-3">
+		<a style="color: inherit" href="home" class="navbar-brand"><img
+			src="imagens/home.png">HOME</a>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a style="color: inherit" class="nav-link"
+				href="read"><img src="imagens/consulta.png"
+					alt="img consulta"> CONSULTA </a></li>
+		</ul>
+	</nav>
+	<h1 class="text-center">CADASTRAR</h1>
+	<div class="centralizarcadastro">
+	
+				<form name="frmCadastro" action="insert">
+					<div class="centralizarcadastro">
+						<table>
+							<tr>
+								<td>Código*</td>
+								<td><input type="text" class="form-control" name="codigo"
+									placeholder="Código de Barras"></td>
+							</tr>
+							<tr>
+								<td>Nome*</td>
+								<td><input type="text" class="form-control" name="nome"
+									placeholder="Nome"></td>
+							</tr>
+							<tr>
+								<td>Categoria</td>
+								<td><input type="text" class="form-control"
+									name="categoria" placeholder="Categoria"></td>
+							</tr>
+							<tr>
+								<td>Quantidade*</td>
+								<td><input type="text" class="form-control"
+									name="quantidade" placeholder="Quantidade"></td>
+							</tr>
+							<tr>
+								<td>Preço*</td>
+								<td><input type="text" class="form-control" name="preco"
+									placeholder="Preço"></td>
+							</tr>
+						</table>
+					</div>
+					<p></p>
+					<div class="hstack gap-3">
+						<div class="bg-light border">
+							<input class="btn btn-dark" type="button" value="Salvar" onclick="validar()">
+						</div>
+						<div class="bg-light border">
+							<input class="btn btn-dark" type="reset" value="Limpa">
+						</div>
+					</div>
+				</form>
+			</div>
+
+	<script src="scripts/validador.js"></script>
+	<script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
